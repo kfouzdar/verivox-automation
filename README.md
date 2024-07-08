@@ -78,13 +78,20 @@ Before you begin, ensure you have [Node.js](https://nodejs.org/) installed on yo
 ## Project Structure
 
 Explore the Project Structure
-Once the project is open in VS Code, navigate through the folders and files using the Explorer pane on the left. Here’s a quick overview of the folders:
+Once the project is open in VS Code, navigate through the folders and files using the Explorer pane on the left. 
+
+Here’s a quick overview of the folders:
 
 features/: Contains the feature file.
+
 step_definitions/: Contains the step definitions.
+
 pages/: Contains the Page Object Model files.
+
 codecept.config.js: Configuration file for CodeceptJS.
+
 package.json: Configuration file for all dependencies.
+
 
 ## Running Tests
 
