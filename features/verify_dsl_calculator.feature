@@ -27,9 +27,9 @@ Scenario: Load multiple tariff result pages
     Then I should see only the first 20 tariffs displayed
     When I click on the button labeled 20 weitere Tarife laden
     Then I should see the next 20 tariffs displayed
-    #And I can continue to load any additional tariffs until all tariffs have been displayed
-    #Then the weitere Tarife laden button is no longer displayed when all the tariffs are visible
-    #And the total number of tariffs displayed matches the total listed number of tariffs above result list
+    And I can continue to load any additional tariffs until all tariffs have been displayed
+    Then the weitere Tarife laden button is no longer displayed when all the tariffs are visible
+    And the total number of tariffs displayed matches the total listed number of tariffs above result list
 
   Scenario: Verify offer details for a selected tariff
     Given I open the Verivox website
