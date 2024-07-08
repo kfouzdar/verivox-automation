@@ -1,0 +1,1039 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720455830325' stop='1720456040021'>
+    <name>Verivox Privathaftpflicht calculator</name>
+    <title>Verivox Privathaftpflicht calculator</title>
+    <test-cases>
+        <test-case start='1720455832590' status='passed' stop='1720455898585'>
+            <name>Verify the DSL calculator</name>
+            <title>Verify the DSL calculator</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1720455834369' status='passed' stop='1720455852547'>
+                    <name>Given I open the Verivox website ""</name>
+                    <title>Given I open the Verivox website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455834369' status='passed' stop='1720455844745'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1720455844748' status='passed' stop='1720455852547'>
+                            <name>On homePage: accept all cookies </name>
+                            <title>On homePage: accept all cookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455844749' status='passed' stop='1720455844780'>
+                                    <name>I wait for element "//*[@id='uc-btn-accept-banner']", 5</name>
+                                    <title>I wait for element "//*[@id='uc-btn-accept-banner']", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455844782' status='passed' stop='1720455849795'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455849797' status='passed' stop='1720455850512'>
+                                    <name>I click "//*[@id='uc-btn-accept-banner']"</name>
+                                    <title>I click "//*[@id='uc-btn-accept-banner']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455850513' status='passed' stop='1720455852520'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455852521' status='passed' stop='1720455852546'>
+                                    <name>I see "Stromvergleich"</name>
+                                    <title>I see "Stromvergleich"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455852547' status='passed' stop='1720455855548'>
+                    <name>When I navigate to Versicherungen and select Privathaftpflicht ""</name>
+                    <title>When I navigate to Versicherungen and select Privathaftpflicht ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455852547' status='passed' stop='1720455854729'>
+                            <name>On homePage: navigate to insurance </name>
+                            <title>On homePage: navigate to insurance </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455852547' status='passed' stop='1720455852714'>
+                                    <name>I move cursor to ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined"</name>
+                                    <title>I move cursor to ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455852718' status='passed' stop='1720455854729'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1720455854729' status='passed' stop='1720455855548'>
+                            <name>On homePage: select privathaftpflicht </name>
+                            <title>On homePage: select privathaftpflicht </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455854729' status='passed' stop='1720455855545'>
+                                    <name>I click ".page-navigation-link[href='/privathaftpflicht/']"</name>
+                                    <title>I click ".page-navigation-link[href='/privathaftpflicht/']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455855548' status='passed' stop='1720455860618'>
+                    <name>And I enter my age and Single ohne Kinder ""</name>
+                    <title>And I enter my age and Single ohne Kinder ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455855548' status='passed' stop='1720455860618'>
+                            <name>On insurancePage: enter age and status </name>
+                            <title>On insurancePage: enter age and status </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455855548' status='passed' stop='1720455856631'>
+                                    <name>I fill field "Alter", "30"</name>
+                                    <title>I fill field "Alter", "30"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455856632' status='passed' stop='1720455860618'>
+                                    <name>I select option "Familienstand", "Single ohne Kinder"</name>
+                                    <title>I select option "Familienstand", "Single ohne Kinder"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455860618' status='passed' stop='1720455871772'>
+                    <name>Then I go to the Privathaftpflicht personal information page ""</name>
+                    <title>Then I go to the Privathaftpflicht personal information page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455860618' status='passed' stop='1720455871772'>
+                            <name>On insurancePage: go to personal info page </name>
+                            <title>On insurancePage: go to personal info page </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455860619' status='passed' stop='1720455861694'>
+                                    <name>I click "Jetzt vergleichen"</name>
+                                    <title>I click "Jetzt vergleichen"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455861694' status='passed' stop='1720455871704'>
+                                    <name>I wait 10</name>
+                                    <title>I wait 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455871704' status='passed' stop='1720455871771'>
+                                    <name>I see " Privathaftpflicht "</name>
+                                    <title>I see " Privathaftpflicht "</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455871772' status='passed' stop='1720455872512'>
+                    <name>And I enter my birthdate ""</name>
+                    <title>And I enter my birthdate ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455871772' status='passed' stop='1720455872512'>
+                            <name>On personalInfoPage: enter birthdate </name>
+                            <title>On personalInfoPage: enter birthdate </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455871772' status='passed' stop='1720455872511'>
+                                    <name>I fill field "//input[@placeholder='TT.MM.JJJJ']", "11.11.1987"</name>
+                                    <title>I fill field "//input[@placeholder='TT.MM.JJJJ']", "11.11.1987"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455872512' status='passed' stop='1720455878040'>
+                    <name>And I enter my zip code ""</name>
+                    <title>And I enter my zip code ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455872512' status='passed' stop='1720455878040'>
+                            <name>On personalInfoPage: enter zip code </name>
+                            <title>On personalInfoPage: enter zip code </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455872512' status='passed' stop='1720455873030'>
+                                    <name>I fill field "//input[@id='prestep_postcode-input']", "13088"</name>
+                                    <title>I fill field "//input[@id='prestep_postcode-input']", "13088"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455873032' status='passed' stop='1720455878040'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455878040' status='passed' stop='1720455898331'>
+                    <name>And I click the Jetzt vergleichen button ""</name>
+                    <title>And I click the Jetzt vergleichen button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455878040' status='passed' stop='1720455898331'>
+                            <name>On personalInfoPage: click compare </name>
+                            <title>On personalInfoPage: click compare </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455878040' status='passed' stop='1720455878325'>
+                                    <name>I click "//span[@class='icn-angle-right-filled']"</name>
+                                    <title>I click "//span[@class='icn-angle-right-filled']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455878325' status='passed' stop='1720455898331'>
+                                    <name>I wait 20</name>
+                                    <title>I wait 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455898331' status='passed' stop='1720455898477'>
+                    <name>Then I should see a page that lists the available tariffs for my selection ""</name>
+                    <title>Then I should see a page that lists the available tariffs for my selection ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455898331' status='passed' stop='1720455898477'>
+                            <name>On resultsPage: see product list </name>
+                            <title>On resultsPage: see product list </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455898331' status='passed' stop='1720455898351'>
+                                    <name>I see " Privathaftpflicht "</name>
+                                    <title>I see " Privathaftpflicht "</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455898351' status='passed' stop='1720455898364'>
+                                    <name>I wait for element "//product-list//product", 10</name>
+                                    <title>I wait for element "//product-list//product", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455898365' status='passed' stop='1720455898477'>
+                                    <name>I see element "//product-list//product"</name>
+                                    <title>I see element "//product-list//product"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455898478' status='passed' stop='1720455898585'>
+                    <name>And at least 5 tariffs should be shown ""</name>
+                    <title>And at least 5 tariffs should be shown ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455898478' status='passed' stop='1720455898585'>
+                            <name>On resultsPage: get total product items </name>
+                            <title>On resultsPage: get total product items </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455898478' status='passed' stop='1720455898487'>
+                                    <name>I wait for element "//product-list//product", 10</name>
+                                    <title>I wait for element "//product-list//product", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455898488' status='passed' stop='1720455898581'>
+                                    <name>I grab number of visible elements "//product-list//product"</name>
+                                    <title>I grab number of visible elements "//product-list//product"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1720455898857' status='passed' stop='1720455966039'>
+            <name>Load multiple tariff result pages</name>
+            <title>Load multiple tariff result pages</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1720455900867' status='passed' stop='1720455912593'>
+                    <name>Given I open the Verivox website ""</name>
+                    <title>Given I open the Verivox website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455900867' status='passed' stop='1720455905017'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1720455905018' status='passed' stop='1720455912593'>
+                            <name>On homePage: accept all cookies </name>
+                            <title>On homePage: accept all cookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455905018' status='passed' stop='1720455905074'>
+                                    <name>I wait for element "//*[@id='uc-btn-accept-banner']", 5</name>
+                                    <title>I wait for element "//*[@id='uc-btn-accept-banner']", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455905075' status='passed' stop='1720455910081'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455910081' status='passed' stop='1720455910557'>
+                                    <name>I click "//*[@id='uc-btn-accept-banner']"</name>
+                                    <title>I click "//*[@id='uc-btn-accept-banner']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455910558' status='passed' stop='1720455912564'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455912564' status='passed' stop='1720455912593'>
+                                    <name>I see "Stromvergleich"</name>
+                                    <title>I see "Stromvergleich"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455912593' status='passed' stop='1720455915722'>
+                    <name>When I navigate to Versicherungen and select Privathaftpflicht ""</name>
+                    <title>When I navigate to Versicherungen and select Privathaftpflicht ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455912593' status='passed' stop='1720455914770'>
+                            <name>On homePage: navigate to insurance </name>
+                            <title>On homePage: navigate to insurance </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455912593' status='passed' stop='1720455912748'>
+                                    <name>I move cursor to ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined"</name>
+                                    <title>I move cursor to ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455912751' status='passed' stop='1720455914769'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1720455914770' status='passed' stop='1720455915722'>
+                            <name>On homePage: select privathaftpflicht </name>
+                            <title>On homePage: select privathaftpflicht </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455914770' status='passed' stop='1720455915722'>
+                                    <name>I click ".page-navigation-link[href='/privathaftpflicht/']"</name>
+                                    <title>I click ".page-navigation-link[href='/privathaftpflicht/']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455915722' status='passed' stop='1720455921619'>
+                    <name>And I enter my age and Single ohne Kinder ""</name>
+                    <title>And I enter my age and Single ohne Kinder ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455915722' status='passed' stop='1720455921619'>
+                            <name>On insurancePage: enter age and status </name>
+                            <title>On insurancePage: enter age and status </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455915722' status='passed' stop='1720455916804'>
+                                    <name>I fill field "Alter", "30"</name>
+                                    <title>I fill field "Alter", "30"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455916805' status='passed' stop='1720455921619'>
+                                    <name>I select option "Familienstand", "Single ohne Kinder"</name>
+                                    <title>I select option "Familienstand", "Single ohne Kinder"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455921619' status='passed' stop='1720455932399'>
+                    <name>Then I go to the Privathaftpflicht personal information page ""</name>
+                    <title>Then I go to the Privathaftpflicht personal information page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455921619' status='passed' stop='1720455932399'>
+                            <name>On insurancePage: go to personal info page </name>
+                            <title>On insurancePage: go to personal info page </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455921619' status='passed' stop='1720455922373'>
+                                    <name>I click "Jetzt vergleichen"</name>
+                                    <title>I click "Jetzt vergleichen"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455922374' status='passed' stop='1720455932375'>
+                                    <name>I wait 10</name>
+                                    <title>I wait 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455932376' status='passed' stop='1720455932399'>
+                                    <name>I see " Privathaftpflicht "</name>
+                                    <title>I see " Privathaftpflicht "</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455932399' status='passed' stop='1720455933043'>
+                    <name>And I enter my birthdate ""</name>
+                    <title>And I enter my birthdate ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455932399' status='passed' stop='1720455933043'>
+                            <name>On personalInfoPage: enter birthdate </name>
+                            <title>On personalInfoPage: enter birthdate </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455932399' status='passed' stop='1720455933043'>
+                                    <name>I fill field "//input[@placeholder='TT.MM.JJJJ']", "11.11.1987"</name>
+                                    <title>I fill field "//input[@placeholder='TT.MM.JJJJ']", "11.11.1987"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455933043' status='passed' stop='1720455938475'>
+                    <name>And I enter my zip code ""</name>
+                    <title>And I enter my zip code ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455933043' status='passed' stop='1720455938475'>
+                            <name>On personalInfoPage: enter zip code </name>
+                            <title>On personalInfoPage: enter zip code </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455933043' status='passed' stop='1720455933464'>
+                                    <name>I fill field "//input[@id='prestep_postcode-input']", "13088"</name>
+                                    <title>I fill field "//input[@id='prestep_postcode-input']", "13088"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455933464' status='passed' stop='1720455938475'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455938475' status='passed' stop='1720455958742'>
+                    <name>And I click the Jetzt vergleichen button ""</name>
+                    <title>And I click the Jetzt vergleichen button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455938475' status='passed' stop='1720455958742'>
+                            <name>On personalInfoPage: click compare </name>
+                            <title>On personalInfoPage: click compare </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455938475' status='passed' stop='1720455938734'>
+                                    <name>I click "//span[@class='icn-angle-right-filled']"</name>
+                                    <title>I click "//span[@class='icn-angle-right-filled']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455938734' status='passed' stop='1720455958742'>
+                                    <name>I wait 20</name>
+                                    <title>I wait 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455958742' status='passed' stop='1720455958772'>
+                    <name>Then I should see the total number of available tariffs listed above all the result list ""</name>
+                    <title>Then I should see the total number of available tariffs listed above all the result list ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455958742' status='passed' stop='1720455958772'>
+                            <name>On resultsPage: get total tariffs </name>
+                            <title>On resultsPage: get total tariffs </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455958742' status='passed' stop='1720455958754'>
+                                    <name>I wait for element "//filtered-products-hint/span", 10</name>
+                                    <title>I wait for element "//filtered-products-hint/span", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455958755' status='passed' stop='1720455958763'>
+                                    <name>I grab text from "//filtered-products-hint/span"</name>
+                                    <title>I grab text from "//filtered-products-hint/span"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455958772' status='passed' stop='1720455960239'>
+                    <name>When I scroll to the end of the result list page ""</name>
+                    <title>When I scroll to the end of the result list page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455958772' status='passed' stop='1720455960239'>
+                            <name>On resultsPage: scroll to bottom until loading button visible </name>
+                            <title>On resultsPage: scroll to bottom until loading button visible </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455958772' status='passed' stop='1720455958778'>
+                                    <name>I scroll page to bottom </name>
+                                    <title>I scroll page to bottom </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455958778' status='passed' stop='1720455958823'>
+                                    <name>I grab number of visible elements ".button.load-more-button"</name>
+                                    <title>I grab number of visible elements ".button.load-more-button"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455958840' status='passed' stop='1720455960239'>
+                                    <name>I wait for element ".button.load-more-button", 10</name>
+                                    <title>I wait for element ".button.load-more-button", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455960239' status='passed' stop='1720455960338'>
+                    <name>Then I should see only the first 20 tariffs displayed ""</name>
+                    <title>Then I should see only the first 20 tariffs displayed ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455960239' status='passed' stop='1720455960338'>
+                            <name>On resultsPage: get total product items </name>
+                            <title>On resultsPage: get total product items </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455960239' status='passed' stop='1720455960257'>
+                                    <name>I wait for element "//product-list//product", 10</name>
+                                    <title>I wait for element "//product-list//product", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455960257' status='passed' stop='1720455960322'>
+                                    <name>I grab number of visible elements "//product-list//product"</name>
+                                    <title>I grab number of visible elements "//product-list//product"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455960338' status='passed' stop='1720455965857'>
+                    <name>When I click on the button labeled 20 weitere Tarife laden ""</name>
+                    <title>When I click on the button labeled 20 weitere Tarife laden ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455960338' status='passed' stop='1720455960846'>
+                            <name>I click ".button.load-more-button"</name>
+                            <title>I click ".button.load-more-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1720455960846' status='passed' stop='1720455965856'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455965857' status='passed' stop='1720455966039'>
+                    <name>Then I should see the next 20 tariffs displayed ""</name>
+                    <title>Then I should see the next 20 tariffs displayed ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455965857' status='passed' stop='1720455966039'>
+                            <name>On resultsPage: get total product items </name>
+                            <title>On resultsPage: get total product items </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455965857' status='passed' stop='1720455965870'>
+                                    <name>I wait for element "//product-list//product", 10</name>
+                                    <title>I wait for element "//product-list//product", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455965870' status='passed' stop='1720455966038'>
+                                    <name>I grab number of visible elements "//product-list//product"</name>
+                                    <title>I grab number of visible elements "//product-list//product"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1720455966374' status='passed' stop='1720456039677'>
+            <name>Verify offer details for a selected tariff</name>
+            <title>Verify offer details for a selected tariff</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1720455967389' status='passed' stop='1720455983822'>
+                    <name>Given I open the Verivox website ""</name>
+                    <title>Given I open the Verivox website ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455967389' status='passed' stop='1720455976313'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1720455976315' status='passed' stop='1720455983822'>
+                            <name>On homePage: accept all cookies </name>
+                            <title>On homePage: accept all cookies </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455976315' status='passed' stop='1720455976333'>
+                                    <name>I wait for element "//*[@id='uc-btn-accept-banner']", 5</name>
+                                    <title>I wait for element "//*[@id='uc-btn-accept-banner']", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455976333' status='passed' stop='1720455981347'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455981348' status='passed' stop='1720455981791'>
+                                    <name>I click "//*[@id='uc-btn-accept-banner']"</name>
+                                    <title>I click "//*[@id='uc-btn-accept-banner']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455981792' status='passed' stop='1720455983797'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455983797' status='passed' stop='1720455983821'>
+                                    <name>I see "Stromvergleich"</name>
+                                    <title>I see "Stromvergleich"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455983822' status='passed' stop='1720455986925'>
+                    <name>When I navigate to Versicherungen and select Privathaftpflicht ""</name>
+                    <title>When I navigate to Versicherungen and select Privathaftpflicht ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455983822' status='passed' stop='1720455986032'>
+                            <name>On homePage: navigate to insurance </name>
+                            <title>On homePage: navigate to insurance </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455983822' status='passed' stop='1720455984024'>
+                                    <name>I move cursor to ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined"</name>
+                                    <title>I move cursor to ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455984024' status='passed' stop='1720455986031'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1720455986032' status='passed' stop='1720455986925'>
+                            <name>On homePage: select privathaftpflicht </name>
+                            <title>On homePage: select privathaftpflicht </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455986032' status='passed' stop='1720455986924'>
+                                    <name>I click ".page-navigation-link[href='/privathaftpflicht/']"</name>
+                                    <title>I click ".page-navigation-link[href='/privathaftpflicht/']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455986925' status='passed' stop='1720455994451'>
+                    <name>And I enter my age and Single ohne Kinder ""</name>
+                    <title>And I enter my age and Single ohne Kinder ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455986925' status='passed' stop='1720455994451'>
+                            <name>On insurancePage: enter age and status </name>
+                            <title>On insurancePage: enter age and status </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455986925' status='passed' stop='1720455988061'>
+                                    <name>I fill field "Alter", "30"</name>
+                                    <title>I fill field "Alter", "30"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455988062' status='passed' stop='1720455994451'>
+                                    <name>I select option "Familienstand", "Single ohne Kinder"</name>
+                                    <title>I select option "Familienstand", "Single ohne Kinder"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720455994451' status='passed' stop='1720456005694'>
+                    <name>Then I go to the Privathaftpflicht personal information page ""</name>
+                    <title>Then I go to the Privathaftpflicht personal information page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720455994451' status='passed' stop='1720456005694'>
+                            <name>On insurancePage: go to personal info page </name>
+                            <title>On insurancePage: go to personal info page </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720455994451' status='passed' stop='1720455995677'>
+                                    <name>I click "Jetzt vergleichen"</name>
+                                    <title>I click "Jetzt vergleichen"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720455995677' status='passed' stop='1720456005682'>
+                                    <name>I wait 10</name>
+                                    <title>I wait 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456005683' status='passed' stop='1720456005693'>
+                                    <name>I see " Privathaftpflicht "</name>
+                                    <title>I see " Privathaftpflicht "</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456005694' status='passed' stop='1720456006442'>
+                    <name>And I enter my birthdate ""</name>
+                    <title>And I enter my birthdate ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456005694' status='passed' stop='1720456006442'>
+                            <name>On personalInfoPage: enter birthdate </name>
+                            <title>On personalInfoPage: enter birthdate </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456005694' status='passed' stop='1720456006442'>
+                                    <name>I fill field "//input[@placeholder='TT.MM.JJJJ']", "11.11.1987"</name>
+                                    <title>I fill field "//input[@placeholder='TT.MM.JJJJ']", "11.11.1987"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456006442' status='passed' stop='1720456011850'>
+                    <name>And I enter my zip code ""</name>
+                    <title>And I enter my zip code ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456006442' status='passed' stop='1720456011850'>
+                            <name>On personalInfoPage: enter zip code </name>
+                            <title>On personalInfoPage: enter zip code </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456006442' status='passed' stop='1720456006842'>
+                                    <name>I fill field "//input[@id='prestep_postcode-input']", "13088"</name>
+                                    <title>I fill field "//input[@id='prestep_postcode-input']", "13088"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456006843' status='passed' stop='1720456011850'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456011850' status='passed' stop='1720456032126'>
+                    <name>And I click the Jetzt vergleichen button ""</name>
+                    <title>And I click the Jetzt vergleichen button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456011850' status='passed' stop='1720456032126'>
+                            <name>On personalInfoPage: click compare </name>
+                            <title>On personalInfoPage: click compare </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456011850' status='passed' stop='1720456012120'>
+                                    <name>I click "//span[@class='icn-angle-right-filled']"</name>
+                                    <title>I click "//span[@class='icn-angle-right-filled']"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456012121' status='passed' stop='1720456032126'>
+                                    <name>I wait 20</name>
+                                    <title>I wait 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456032126' status='passed' stop='1720456034161'>
+                    <name>Then I should see the tariff price of the first tariff ""</name>
+                    <title>Then I should see the tariff price of the first tariff ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456032126' status='passed' stop='1720456034161'>
+                            <name>On resultsPage: see first tariff price </name>
+                            <title>On resultsPage: see first tariff price </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456032126' status='passed' stop='1720456032133'>
+                                    <name>I scroll page to top </name>
+                                    <title>I scroll page to top </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456032133' status='passed' stop='1720456034143'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456034144' status='passed' stop='1720456034161'>
+                                    <name>I see element "//product[1]//div[3]/div[1]/div[2]/div[1]"</name>
+                                    <title>I see element "//product[1]//div[3]/div[1]/div[2]/div[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456034161' status='passed' stop='1720456039484'>
+                    <name>When I open tariff details ""</name>
+                    <title>When I open tariff details ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456034161' status='passed' stop='1720456039484'>
+                            <name>On resultsPage: open first tariff details </name>
+                            <title>On resultsPage: open first tariff details </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456034161' status='passed' stop='1720456034474'>
+                                    <name>I click "//product[1]//div[2]/button[1]"</name>
+                                    <title>I click "//product[1]//div[2]/button[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456034475' status='passed' stop='1720456039484'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456039484' status='passed' stop='1720456039659'>
+                    <name>And I see tariff details sections: "Miete &amp; Immobilien" and "Dokumente" ""</name>
+                    <title>And I see tariff details sections: "Miete &amp; Immobilien" and "Dokumente" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456039484' status='passed' stop='1720456039659'>
+                            <name>On tariffDetailsPage: see tariff details sections </name>
+                            <title>On tariffDetailsPage: see tariff details sections </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456039484' status='passed' stop='1720456039502'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[1]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039503' status='passed' stop='1720456039519'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[2]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039519' status='passed' stop='1720456039535'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[3]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[3]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039535' status='passed' stop='1720456039553'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[4]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[4]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039554' status='passed' stop='1720456039572'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[5]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[5]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039572' status='passed' stop='1720456039589'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[1]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039590' status='passed' stop='1720456039608'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[2]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039609' status='passed' stop='1720456039625'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[3]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[3]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039625' status='passed' stop='1720456039641'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[4]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[4]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1720456039642' status='passed' stop='1720456039659'>
+                                    <name>I see element "//product[1]//div[2]/ul/li[5]"</name>
+                                    <title>I see element "//product[1]//div[2]/ul/li[5]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1720456039659' status='passed' stop='1720456039677'>
+                    <name>And I see the ZUM ONLINE-ANTRAG button ""</name>
+                    <title>And I see the ZUM ONLINE-ANTRAG button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1720456039659' status='passed' stop='1720456039677'>
+                            <name>On tariffDetailsPage: see zum online antrag button </name>
+                            <title>On tariffDetailsPage: see zum online antrag button </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1720456039659' status='passed' stop='1720456039677'>
+                                    <name>I see element "//product[1]//div[2]/button[2]"</name>
+                                    <title>I see element "//product[1]//div[2]/button[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
