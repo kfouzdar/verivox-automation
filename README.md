@@ -95,35 +95,11 @@ package.json: Configuration file for all dependencies.
 
 Test Scenarios:
 
-Scenario 1: 
-1. Verify the DSL calculator
-Open www.verivox.de
-Navigate to Versicherungen and select Privathaftpflicht
-Enter age and Single ohne Kinder
-Go to the Privathaftpflicht personal information page
-Enter birthdate and zip code (13088)
-Click the Jetzt vergleichen button
-Verify that at least 5 tariffs are shown
+Scenario-1: Verify the DSL calculator
 
-Scenario 2: Load multiple tariff result pages
-Same tariff calculation criteria from scenario 1
-Display the tariff Result List page
-Verify the total number of available tariffs listed above all the result list
-Scroll to the end of the result list page
-Verify only the first 20 tariffs displayed
-Click on the button labeled 20 weitere Tarife laden
-Verify the next 20 tariffs displayed and continue to load additional tariffs
-Verify that the weitere Tarife laden button is no longer displayed when all the tariffs are visible
-Verify the total number of tariffs displayed matches the total listed number of tariffs above result list
+Scenario-2: Load multiple tariff result pages
 
-Scenario 3: Verify offer details for a selected tariff
-Same tariff calculation criteria from scenario 1
-Display the tariff result list page
-Verify the tariff price of the first tariff
-Open tariff details
-Verify tariff details sections: “Weitere Leistungen”, “Allgemein“, „ Tätigkeiten und Hobbys”
-Verify tariff details sections: “Miete & Immobilien” and “Dokumente”
-Verify the ZUM ONLINE-ANTRAG button
+Scenario-3: Verify offer details for a selected tariff
 
 ## Generating Reports
 
