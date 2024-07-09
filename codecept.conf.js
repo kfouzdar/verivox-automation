@@ -50,9 +50,13 @@ exports.config = {
       enabled: true
     },
     pauseOnFail: {},
+    stepByStepReport: {
+      enabled: true,
+      deleteSuccessful: false,
+    },
     allure: {
       enabled: true,
-      require: '@codeceptjs/allure-legacy',
+      require: 'allure-codeceptjs',
       outputDir: './output/allure-results'
     }
   },
