@@ -116,5 +116,6 @@ Mocha report:
    ```
 Allure report:
 ```bash
-npm run test:allure
+npx codeceptjs run
+npx allure serve allure-results
 ```
