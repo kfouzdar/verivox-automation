@@ -110,6 +110,11 @@ Scenario-3: Verify offer details for a selected tariff
 
 ## Generating Reports
 
+Mocha report:
  ```bash
    npx codeceptjs run --reporter mochawesome
    ```
+Allure report:
+```bash
+npm run test:allure
+```
