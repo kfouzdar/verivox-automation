@@ -38,42 +38,89 @@ Before you begin, ensure you have [Node.js](https://nodejs.org/) installed on yo
     ```bash
    npm install chai --save-dev
    npm install mochawesome --save-dev
-   npm install @codeceptjs/allure-legacy --save-dev
+   npm install --save-dev allure-codeceptjs
 
    npx codeceptjs init
     ```
 
 3. configuration file `codecept.conf.js`:
-    ```javascript
-    exports.config = {
-      tests: './tests/*.js',
-      output: './output',
-      helpers: {
-        Playwright: {
-          url: 'https://www.verivox.de',
-          show: true,
-          browser: 'chromium'
-        }
+```javascript
+exports.config = {
+output: './output',
+  helpers: {
+    Playwright: {
+      browser: 'chromium',
+      url: 'https://www.verivox.de',
+      show: true,
+      chromium: {
+        args: ['--no-sandbox', '--window-size=1920,919'],
+        defaultViewport: null
       },
-      include: {
-        I: './steps_file.js',
-        homePage: './pages/HomePage.js',
-        resultPage: './pages/ResultPage.js'
-      },
-      bootstrap: null,
-      mocha: {},
-      name: 'verivox-automation',
-      plugins: {
-        allure: {
-          enabled: true
-        }
-      },
-      gherkin: {
-        features: './features/*.feature',
-        steps: ['./step_definitions/steps.js']
-      }
-    };
-    ```
+      windowSize: '1920x919'
+    }
+  },
+  include: {
+    I: './steps_file.js',
+    homePage: './pages/HomePage.js',
+    insurancePage: './pages/InsurancePage.js',
+    personalInfoPage: './pages/PersonalInfoPage.js',
+    resultsPage: './pages/ResultsPage.js',
+    tariffDetailsPage: './pages/TariffDetailsPage.js'
+  },
+  mocha: {
+    reporterOptions: {
+      reportDir: "output"
+    }
+  },
+  bootstrap: null,
+  timeout: null,
+  teardown: null,
+  hooks: [],
+  gherkin: {
+    features: './features/*.feature',
+    steps: ['./step_definitions/steps.js']
+  },
+  plugins: {
+    screenshotOnFail: {
+      enabled: true
+    },
+    tryTo: {
+      enabled: true
+    },
+    retryFailedStep: {
+      enabled: true
+    },
+    retryTo: {
+      enabled: true
+    },
+    eachElement: {
+      enabled: true
+    },
+    pauseOnFail: {},
+    stepByStepReport: {
+      enabled: true,
+      deleteSuccessful: false,
+    },
+    allure: {
+      enabled: true,
+      require: 'allure-codeceptjs',
+      outputDir: './output/allure-results'
+    }
+  },
+  stepTimeout: 0,
+  stepTimeoutOverride: [{
+      pattern: 'wait.*',
+      timeout: 0
+    },
+    {
+      pattern: 'amOnPage',
+      timeout: 0
+    }
+  ],
+  tests: './*_test.js',
+  name: 'verivox-automation'
+}
+```
 
 ## Project Structure
 
