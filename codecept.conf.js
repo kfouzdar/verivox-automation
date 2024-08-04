@@ -12,6 +12,20 @@ exports.config = {
       windowSize: '1920x919'
     }
   },
+  multiple: {
+    basic: {
+      browsers: [
+        {
+          browser: 'chromium',
+          windowSize: '1920x919'
+        },
+        {
+          browser: 'firefox',
+          windowSize: '1920x919'
+        }
+      ]
+    }
+  },
   include: {
     I: './steps_file.js',
     homePage: './pages/HomePage.js',
