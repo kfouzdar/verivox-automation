@@ -73,6 +73,7 @@ node {
         always {
             // Clean up workspace
             cleanWs()
+            }
         }
     }
 }
