@@ -3,7 +3,7 @@ const { I } = inject();
   
   module.exports = {
     acceptCookiesButton: "//*[@id='uc-btn-accept-banner']",
-    insuranceLink: ".page-navigation-text.icn-a-angle-right-outlined.icn-shield-outlined",
+    insuranceLink: ".page-navigation-item.icn-shield-outlined",
     privathaftpflichtLink: ".page-navigation-link[href='/privathaftpflicht/']",
   
     acceptAllCookies() {
