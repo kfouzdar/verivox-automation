@@ -55,7 +55,8 @@ exports.config = {
       enabled: true
     },
     retryFailedStep: {
-      enabled: true
+      enabled: true,
+      retries: 3
     },
     retryTo: {
       enabled: true
