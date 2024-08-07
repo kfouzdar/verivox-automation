@@ -1,6 +1,6 @@
-node {
+pipeline {
     agent any
-    def imageTag = "peterngtr/rest-demo:${env.BUILD_NUMBER}"
+    def imageTag = "kfouzdar/verivox:${env.BUILD_NUMBER}"
     def dockerHome = tool 'myDocker'
 
     environment {
